@@ -18,10 +18,10 @@
 
 #include <assert.h>
 
-typedef int16_t ccount_t;
+typedef int32_t ccount_t;
 
 enum {
-  CCOUNT_MAX = INT16_MAX
+  CCOUNT_MAX = INT32_MAX
 };
 
 
